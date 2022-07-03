@@ -1,7 +1,7 @@
 import { Abstract2dArt, classNames, declareModule, makeArtModule, React } from '@collboard/modules-sdk';
 import { IVectorData, Vector } from 'xyzt';
 import { contributors, description, license, repository, version } from '../package.json';
-import { DASHPATTERNS } from './DashpatternAttribute';
+import { DASHPATTERNS } from './grid-attribute-module';
 
 export const SVG_PADDING = 10;
 export const IS_NEAR_DISTANCE = 20;
@@ -9,9 +9,9 @@ export const IS_NEAR_DISTANCE = 20;
 export class FreehandWithDashpatternArt extends Abstract2dArt {
     // TODO: Some clear rules how to name serializeName and module names (+ adding scopes and versions there)
     // TODO: How to handle versioning in arts?
-    public static serializeName = 'FreehandWithDashpattern';
+    public static serializeName = 'Polygon';
     public static manifest = {
-        name: '@collboard-templates/freehand-with-dashpattern-art',
+        name: '@hejny/polygon-drawing/polygon-art',
         contributors,
         description,
         license,

@@ -2,20 +2,21 @@
 import { declareModule, makeIconModuleOnModule, React, Separator, ToolbarName } from '@collboard/modules-sdk';
 import { Registration } from 'destroyable';
 import { contributors, description, license, repository, version } from '../package.json';
-import { FreehandWithDashpatternArt } from './FreehandWithDashpatternArt';
+import { FreehandWithDashpatternArt } from './polygon-art-module';
 
 declareModule(
     makeIconModuleOnModule({
         manifest: {
-            name: '@collboard-templates/freehand-with-dashpattern-tool',
+            name: '@hejny/polygon-drawing/polygon-tool',
             version,
             description,
             contributors,
             license,
             repository,
-            title: { en: 'Drawing of dotted and dashed lines', cs: 'Kreslení přerušovaných čar' },
+            title: { en: 'Drawing of polygonal art', cs: 'Kreslení polygonálních obrazů' },
+            keywords: ['Cubism','Voronoi'],
             categories: ['Basic', 'Art', 'Experimental'],
-            icon: '✒️',
+            icon: '📐',
             flags: {
                 isTemplate: true,
             },
