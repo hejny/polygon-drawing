@@ -10,7 +10,7 @@ export enum GridType {
 declareModule(
     makeAttributeModule<string>({
         manifest: {
-            name: '@hejny/polygon-drawing/grid-type-attribute',
+            name: '@hejny/grid-polygon-drawing/grid-type-attribute',
             version,
             description,
             contributors,

@@ -9,12 +9,12 @@ import {
 } from '@collboard/modules-sdk';
 import { Registration } from 'destroyable';
 import { contributors, description, license, repository, version } from '../package.json';
-import { PolygonArt } from './polygon-art-module';
+import { GridPolygonArt } from './grid-polygon-art-module';
 
 declareModule(
     makeIconModuleOnModule({
         manifest: {
-            name: '@hejny/polygon-drawing/polygon-tool',
+            name: '@hejny/grid-polygon-drawing/polygon-tool',
             version,
             description,
             contributors,
@@ -37,11 +37,9 @@ declareModule(
                 boardCursor: 'crosshair',
                 menu: () => (
                     <>
-                        {attributesSystem.inputRender('weight')}
+                        {attributesSystem.inputRender('grid-type')}
                         <Separator />
                         {attributesSystem.inputRender('color')}
-                        <Separator />
-                        {attributesSystem.inputRender('dashpattern')}
                     </>
                 ),
             };
@@ -62,7 +60,7 @@ declareModule(
                         async next(touch) {
                             appState.cancelSelection();
 
-                            const cubeArt = new PolygonArt(attributesSystem.getAttributeValue('color') as string);
+                            const cubeArt = new GridPolygonArt(attributesSystem.getAttributeValue('color') as string);
                             let position = (await collSpace.pickPoint(touch.firstFrame.position)).point;
 
                             // TODO: In sync with grid

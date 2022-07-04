@@ -1,5 +1,5 @@
 {
-    "name": "polygon-drawing",
+    "name": "grid-polygon-drawing",
     "version": "0.1.0",
     "description": "Simple sample module for Collboard.com with the art (object on the board), tool, and attribute",
     "license": "SEE LICENSE IN LICENSE",
