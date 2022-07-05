@@ -39,6 +39,8 @@ declareModule(
                     <>
                         {attributesSystem.inputRender('grid-type')}
                         <Separator />
+                        {attributesSystem.inputRender('grid-size')}
+                        <Separator />
                         {attributesSystem.inputRender('color')}
                     </>
                 ),

@@ -26,18 +26,16 @@ declareModule(
             name: 'grid-type',
             defaultValue: GridType.Square,
         },
-        inputRender: (value: GridType, onChange: (value: GridType) => void) => (
-            <>
-                {Object.values(GridType).map((gridType) => (
-                    <div
-                        key={gridType}
-                        className={value === gridType ? 'active' : ''}
-                        onClick={() => onChange(gridType)}
-                    >
-                        {gridType}
-                    </div>
-                ))}
-            </>
-        ),
+        inputRender(value: GridType, onChange: (value: GridType) => void) {
+            return (
+                <>
+                    {Object.values(GridType).map((gridType) => (
+                        <Icon key={gridType} active={value === gridType} onClick={() => onChange(gridType)}>
+                            {gridType}
+                        </Icon>
+                    ))}
+                </>
+            );
+        },
     }),
 );
