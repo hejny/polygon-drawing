@@ -1,14 +1,14 @@
 {
     "name": "grid-polygon-drawing",
     "version": "0.1.0",
-    "description": "Simple sample module for Collboard.com with the art (object on the board), tool, and attribute",
+    "description": "Drawing in polygons and triangles grid in Collboard",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [
         "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/collboard/sample-art-tool-attribute-module"
+        "url": "https://github.com/hejny/polygon-drawing"
     },
     "private": false,
     "scripts": {
