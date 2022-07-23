@@ -62,7 +62,9 @@ declareModule(
                         async next(touch) {
                             appState.cancelSelection();
 
-                            const cubeArt = new GridPolygonArt(attributesSystem.getAttributeValue('color') as string);
+                            const cubeArt = new GridPolygonArt(
+                                attributesSystem.getAttributeValue('color').value as string,
+                            );
                             let position = (await collSpace.pickPoint(touch.firstFrame.position)).point;
 
                             // TODO: In sync with grid

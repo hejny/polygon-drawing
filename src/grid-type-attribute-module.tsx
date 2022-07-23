@@ -1,4 +1,4 @@
-import { declareModule, makeAttributeModule, React } from '@collboard/modules-sdk';
+import { declareModule, Icon, makeAttributeModule, React } from '@collboard/modules-sdk';
 import { contributors, description, license, repository, version } from '../package.json';
 
 export enum GridType {
@@ -30,7 +30,13 @@ declareModule(
             return (
                 <>
                     {Object.values(GridType).map((gridType) => (
-                        <Icon key={gridType} active={value === gridType} onClick={() => onChange(gridType)}>
+                        // TODO: !!! Some kind of text icon
+                        <Icon
+                            icon={gridType}
+                            key={gridType}
+                            active={value === gridType}
+                            onClick={() => onChange(gridType)}
+                        >
                             {gridType}
                         </Icon>
                     ))}
