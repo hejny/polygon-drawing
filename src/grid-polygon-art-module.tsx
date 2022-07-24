@@ -1,4 +1,12 @@
-import { Abstract2dArt, classNames, declareModule, makeArtModule, React, SCALE_PIXELS } from '@collboard/modules-sdk';
+import {
+    Abstract2dArt,
+    classNames,
+    declareModule,
+    makeArtModule,
+    nonceFunction1,
+    React,
+    SCALE_PIXELS,
+} from '@collboard/modules-sdk';
 import { Vector } from 'xyzt';
 import { contributors, description, license, repository, version } from '../package.json';
 
@@ -38,6 +46,7 @@ export class GridPolygonArt extends Abstract2dArt {
     }
 
     render(selected: boolean) {
+        nonceFunction1();
         return (
             <div
                 className={classNames('art', selected && 'selected')}
