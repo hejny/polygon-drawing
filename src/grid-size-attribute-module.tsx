@@ -1,4 +1,4 @@
-import { declareModule, Icon, makeAttributeModule, React } from '@collboard/modules-sdk';
+import { declareModule, IconText, makeAttributeModule, React } from '@collboard/modules-sdk';
 import { contributors, description, license, repository, version } from '../package.json';
 
 declareModule(
@@ -24,15 +24,13 @@ declareModule(
             return (
                 <>
                     {[-2, -1, 0, 1, 2].map((gridSize) => (
-                        // TODO: !!! Some kind of text icon
-                        <Icon
-                            key={gridSize}
+                        <IconText
                             icon={gridSize.toString()}
                             active={value === gridSize}
                             onClick={() => onChange(gridSize)}
                         >
                             {gridSize}
-                        </Icon>
+                        </IconText>
                     ))}
                 </>
             );
