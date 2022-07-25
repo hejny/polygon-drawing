@@ -5,6 +5,7 @@ import {
     makeArtModule,
     nonceFunction3,
     nonceFunction4,
+    nonceFunction5,
     React,
     SCALE_PIXELS,
 } from '@collboard/modules-sdk';
@@ -14,9 +15,6 @@ import { contributors, description, license, repository, version } from '../pack
 export const SVG_PADDING = 10;
 export const IS_NEAR_DISTANCE = 20;
 
-console.log('nonce3', nonceFunction3(/* !!! Test that it exists in the runtime */));
-console.log('nonce4', nonceFunction4(/* !!! Test that it exists in the runtime */));
-console.log('nonce5', nonceFunction5(/* !!! Test that it exists in the runtime */));
 
 export class GridPolygonArt extends Abstract2dArt {
     // TODO: Some clear rules how to name serializeName and module names (+ adding scopes and versions there)

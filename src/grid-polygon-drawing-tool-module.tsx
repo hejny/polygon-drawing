@@ -8,6 +8,8 @@ import {
     ToolbarName,
 } from '@collboard/modules-sdk';
 import { Registration } from 'destroyable';
+// !!! Better icon + probbably rounder corners
+import icon from '../assets/icons/Pavol_Hejny_icon_of_stained_glass_window_19982422-65e4-499d-94d2-076ebe150ab3.png';
 import { contributors, description, license, repository, version } from '../package.json';
 import { GridPolygonArt } from './grid-polygon-art-module';
 
@@ -23,7 +25,7 @@ declareModule(
             title: { en: 'Drawing of polygonal art', cs: 'Kreslení polygonálních obrazů' },
             keywords: ['Cubism', 'Voronoi'],
             categories: ['Basic', 'Art', 'Experimental'],
-            icon: '📐',
+            icon,
             flags: {
                 isTemplate: true,
             },
@@ -33,7 +35,7 @@ declareModule(
             const { attributesSystem } = await systems.request('attributesSystem');
             return {
                 section: 2,
-                icon: '📐',
+                icon,
                 boardCursor: 'crosshair',
                 menu: () => (
                     <>
