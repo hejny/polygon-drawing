@@ -24,12 +24,8 @@ declareModule(
             return (
                 <>
                     {[-2, -1, 0, 1, 2].map((gridSize) => (
-                        <IconText
-                            icon={gridSize.toString()}
-                            active={value === gridSize}
-                            onClick={() => onChange(gridSize)}
-                        >
-                            {gridSize}
+                        <IconText active={value === gridSize} onClick={() => onChange(gridSize)}>
+                            {gridSize.toString()}
                         </IconText>
                     ))}
                 </>
