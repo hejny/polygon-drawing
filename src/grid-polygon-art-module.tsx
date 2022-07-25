@@ -3,7 +3,7 @@ import {
     classNames,
     declareModule,
     makeArtModule,
-    nonceFunction2,
+    nonceFunction3,
     React,
     SCALE_PIXELS,
 } from '@collboard/modules-sdk';
@@ -46,7 +46,7 @@ export class GridPolygonArt extends Abstract2dArt {
     }
 
     render(selected: boolean) {
-        nonceFunction2();
+        nonceFunction3(/* !!! Test that it exists in the runtime */);
         return (
             <div
                 className={classNames('art', selected && 'selected')}
