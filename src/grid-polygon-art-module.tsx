@@ -46,7 +46,7 @@ export class GridPolygonArt extends Abstract2dArt {
     }
 
     render(selected: boolean) {
-        nonceFunction3(/* !!! Test that it exists in the runtime */);
+        console.log('nonce', nonceFunction3(/* !!! Test that it exists in the runtime */));
         return (
             <div
                 className={classNames('art', selected && 'selected')}
