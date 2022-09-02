@@ -1,20 +1,9 @@
-import {
-    Abstract2dArt,
-    classNames,
-    declareModule,
-    makeArtModule,
-    nonceFunction3,
-    nonceFunction4,
-    nonceFunction5,
-    React,
-    SCALE_PIXELS,
-} from '@collboard/modules-sdk';
+import { Abstract2dArt, classNames, declareModule, makeArtModule, React, SCALE_PIXELS } from '@collboard/modules-sdk';
 import { Vector } from 'xyzt';
 import { contributors, description, license, repository, version } from '../package.json';
 
 export const SVG_PADDING = 10;
 export const IS_NEAR_DISTANCE = 20;
-
 
 export class GridPolygonArt extends Abstract2dArt {
     // TODO: Some clear rules how to name serializeName and module names (+ adding scopes and versions there)
