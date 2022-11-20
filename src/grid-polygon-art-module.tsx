@@ -71,4 +71,5 @@ declareModule(makeArtModule(GridPolygonArt));
 
 /**
  * TODO: !!! There should be probbably one universal ShapeArt / PolygonArt with fill and stroke attributes !!!
+ * TODO: !!! Fix serialization
  */
