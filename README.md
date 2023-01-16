@@ -40,6 +40,7 @@ You can also ⭐ star the polygon-drawing package, [follow me on GitHub](https:/
 
 ## ✨ Partners
 
+
 <a href="https://collboard.com/">
   <img src="https://collboard.fra1.cdn.digitaloceanspaces.com/assets/18.12.1/logo-small.png" alt="Collboard logo" width="50"  />
 </a>
@@ -51,6 +52,7 @@ You can also ⭐ star the polygon-drawing package, [follow me on GitHub](https:/
 <a href="https://sigmastamp.ml/">
   <img src="https://www.sigmastamp.ml/sigmastamp-logo.white.svg" alt="SigmaStamp logo" width="50"  />
 </a>
+
 
 [Become a partner](https://www.pavolhejny.com/contact/)
 
