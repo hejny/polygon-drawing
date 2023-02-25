@@ -1,11 +1,11 @@
 // Note: We are using library destroyable and xyzt which is published under @hejny (creator of Collboard) but probbly it should be also published under @collboard to make clear that it is an integral part of Collboard stack.
 import {
-    declareModule,
-    makeIconModuleOnModule,
-    React,
-    SCALE_PIXELS,
-    Separator,
-    ToolbarName,
+  declareModule,
+  makeIconModuleOnModule,
+  React,
+  SCALE_PIXELS,
+  Separator,
+  ToolbarName
 } from '@collboard/modules-sdk';
 import { Registration } from 'destroyable';
 // !!! Better icon + probbably rounder corners
