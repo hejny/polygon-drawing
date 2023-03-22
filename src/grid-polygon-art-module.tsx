@@ -70,6 +70,6 @@ export class GridPolygonArt extends Abstract2dArt {
 declareModule(makeArtModule(GridPolygonArt));
 
 /**
- * TODO: !!! There should be probbably one universal ShapeArt / PolygonArt with fill and stroke attributes !!!
+ * TODO: !!! There should be probbably one universal ShapeArt / PolygonArt with fill and stroke attributes TODO: !!!
  * TODO: !!! Fix serialization
  */
