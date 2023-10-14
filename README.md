@@ -15,7 +15,7 @@ Note: Originally here was image not UTF-8 icon but it made problems for example 
 [![lint](https://github.com/hejny/polygon-drawing/actions/workflows/lint.yml/badge.svg)](https://github.com/hejny/polygon-drawing/actions/workflows/lint.yml)
 [![test](https://github.com/hejny/polygon-drawing/actions/workflows/test.yml/badge.svg)](https://github.com/hejny/polygon-drawing/actions/workflows/test.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/hejny/polygon-drawing/badge.svg)](https://snyk.io/test/github/hejny/polygon-drawing)
-[![Issues](https://img.shields.io/github/issues/hejny/polygon-drawing.svg?style=flat)](https://github.com/hejny/polygon-drawing/issues)
+<!--[![Issues](https://img.shields.io/github/issues/hejny/polygon-drawing.svg?style=flat)](https://github.com/hejny/polygon-drawing/issues)-->
 
 <!--/Badges-->
 
