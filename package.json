@@ -1,6 +1,6 @@
 {
     "name": "grid-polygon-drawing",
-    "version": "0.1.71",
+    "version": "0.1.72",
     "description": "Drawing in polygons and triangles grid in Collboard",
     "license": "SEE LICENSE IN LICENSE",
     "contributors": [
