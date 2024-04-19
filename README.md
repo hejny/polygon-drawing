@@ -16,6 +16,7 @@ Note: Originally here was image not UTF-8 icon but it made problems for example 
 [![test](https://github.com/hejny/polygon-drawing/actions/workflows/test.yml/badge.svg)](https://github.com/hejny/polygon-drawing/actions/workflows/test.yml)
 [![Known Vulnerabilities](https://snyk.io/test/github/hejny/polygon-drawing/badge.svg)](https://snyk.io/test/github/hejny/polygon-drawing)
 [![Issues](https://img.shields.io/github/issues/hejny/polygon-drawing.svg?style=flat)](https://github.com/hejny/polygon-drawing/issues)
+<!--[![Socket](https://socket.dev/api/badge/npm/package/grid-polygon-drawing)](https://socket.dev/npm/package/grid-polygon-drawing)-->
 
 <!--/Badges-->
 
