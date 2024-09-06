@@ -1,0 +1,36 @@
+{
+    "name": "grid-polygon-drawing",
+    "version": "0.1.161",
+    "description": "Drawing in polygons and triangles grid in Collboard",
+    "license": "SEE LICENSE IN LICENSE",
+    "contributors": [
+        "Pavol Hejný <pavol.hejny@collboard.com> (https://collboard.com/-/about/team)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hejny/polygon-drawing"
+    },
+    "private": false,
+    "scripts": {
+        "start": "colldev develop",
+        "test": "colldev test",
+        "lint": "tslint -p tsconfig.json",
+        "preversion": "npm run lint && npm test",
+        "postversion": "git push && git push --tags"
+    },
+    "devDependencies": {
+        "@collboard/modules-sdk": "35.13.2400",
+        "tslint": "6.1.3",
+        "xyzt": "5.4.3"
+    },
+    "funding": [
+        {
+            "type": "individual",
+            "url": "https://buymeacoffee.com/hejny"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com/hejny/polygon-drawing/blob/main/README.md#%EF%B8%8F-contributing"
+        }
+    ]
+}
